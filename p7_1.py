@@ -22,10 +22,7 @@ try:
             if(len(stack)==0):
                 print("Stack is Empty")
             else:
-                print("Displaying stack from bottom to top : ",end="")
-                for i in range(len(stack)):
-                    print(stack[i], end=", " if i < len(stack) - 1 else "\n")
-                print()
+                print("Displaying stack from bottom to top :",stack)
         elif(ch==5):
             print("END OF PROGRAM")
             break
