@@ -9,5 +9,5 @@ for i in a:
     else:
         c.append(i)
 
-print("Even numbers =",b)
-print("Odd numbers =",c)
+print("Even numbers list =",b)
+print("Odd numbers list =",c)
